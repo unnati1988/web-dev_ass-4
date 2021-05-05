@@ -1,0 +1,117 @@
+body {
+	background-color: aliceblue;
+	display: inline;
+}
+
+#main {
+	text-shadow: 2px 2px 4px whitesmoke;
+	color: aliceblue;
+	text-align: center;
+	font-size: 25px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	width: 100%;
+  background-color: #1c2841 ;
+  box-shadow: 5px 10px 30px grey;
+	margin: 0px 0px 10px 0px;
+  line-height: 75px;
+}
+
+.menu {
+	list-style: none;
+	color:black;
+	display: flex;
+	font-style: sans-serif;
+	font-size: 15px;
+}
+
+.main-text h1 {
+  font-size: 3.5em;
+  color: #1c3548;
+  margin: 0px 0px 10px 0px;
+  line-height: 70px;
+}
+
+.main-text {
+	display: flex;
+	padding:10px 50px 0px 50px;
+	margin: 25px 50px 75px;
+	width: 1150px;
+  border: 15px solid darkolivegreen;
+	background-color: white;
+	text-indent: 50px;
+  text-align: justify;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 17px;
+}
+
+.sum{
+	border:1cm gray;
+	padding:10px 50px 0px 50px;
+	width: 1150px;
+	text-indent: 50px;
+  text-align: left;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 17px;
+	box-shadow: 0px 0px 0px;
+}
+
+h2 {
+	background-color: olive ;
+	text-align: center;
+	color: whitesmoke;
+	width: 1250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3 {
+	background-color: olive ;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	color: whitesmoke;
+	width: 850px;
+	font-size: 27px;
+}
+
+ul {
+	background: white;
+	padding: 10px 10px 10px 50px;
+  margin-left: 35px;
+	margin-right: 0px;
+	list-style-type: disc;
+}
+
+.para {
+	background: white;
+	padding: 10px 10px 10px 50px;
+  margin-left: 35px;
+	margin-right: 0px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #1c2841;
+	justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  color: white;
+}
+
+.resume-btn {
+  width: 190px;
+  height: 44px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: darksalmon;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px black;
+}
+
+.resume-btn:hover {
+  background-color: #E66969	;
+  transition: all ease 0.2;
+}
